@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniLauncher4", "MiniLauncher4.csproj", "{EF682E32-93FC-4B32-84DE-BE0B10F7677E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F56F4CC6-94D6-481E-9BA7-64B6158655B7} = {F56F4CC6-94D6-481E-9BA7-64B6158655B7}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CmdExecuter", "..\CmdExecuter\CmdExecuter.csproj", "{F56F4CC6-94D6-481E-9BA7-64B6158655B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF682E32-93FC-4B32-84DE-BE0B10F7677E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF682E32-93FC-4B32-84DE-BE0B10F7677E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF682E32-93FC-4B32-84DE-BE0B10F7677E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF682E32-93FC-4B32-84DE-BE0B10F7677E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56F4CC6-94D6-481E-9BA7-64B6158655B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56F4CC6-94D6-481E-9BA7-64B6158655B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56F4CC6-94D6-481E-9BA7-64B6158655B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56F4CC6-94D6-481E-9BA7-64B6158655B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A20C9A-8B8C-4B2A-A00A-38D51FDC5D11}
+	EndGlobalSection
+EndGlobal
